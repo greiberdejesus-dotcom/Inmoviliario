@@ -1,0 +1,172 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background: linear-gradient(-45deg, #461248 , #a93747 , #f2a15f , #ffd6b6);
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background: linear-gradient(-45deg, #461248 , #a93747 , #f2a15f , #ffd6b6);
+}
+
+.logo{
+color: black;
+font-size:26px;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:30px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#d4af37;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:#f4f4f4;
+}
+
+.hero h1{
+font-size:45px;
+margin-bottom:15px;
+}
+
+/* HISTORIA */
+
+.historia{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:50px;
+padding:80px;
+flex-wrap:wrap;
+}
+
+.historia-text{
+flex:1;
+min-width:300px;
+}
+
+.historia-text h2{
+margin-bottom:20px;
+color:#0b1c2d;
+}
+
+.historia-img{
+flex:1;
+min-width:300px;
+}
+
+.historia-img img{
+width:100%;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* MISION VISION */
+
+.mv{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:80px;
+flex-wrap:wrap;
+background:white;
+}
+
+.mv .card{
+width:300px;
+padding:30px;
+background:#f4f4f4;
+border-radius:8px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+.mv .card h3{
+color:#d4af37;
+margin-bottom:15px;
+}
+
+/* STATS */
+
+.stats{
+display:flex;
+justify-content:center;
+gap:80px;
+padding:80px;
+background:#0b1c2d;
+color:white;
+text-align:center;
+flex-wrap:wrap;
+}
+
+.stat h2{
+font-size:40px;
+color:#d4af37;
+}
+
+/* EQUIPO */
+
+.equipo{
+padding:80px;
+text-align:center;
+}
+
+.team-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.member{
+width:300px;
+}
+
+.member img{
+width:400px;
+height:350px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+margin-bottom:15px;
+}
+
+.member h4{
+margin-bottom:7px;
+}
+
+footer{
+background: linear-gradient(-45deg, #461248 , #a93747 , #f2a15f , #ffd6b6);
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
